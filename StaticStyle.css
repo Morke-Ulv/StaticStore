@@ -1,0 +1,125 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.background{
+    z-index: -1;
+    padding:0px;
+    margin:0px;
+    height: 1000px;
+    position: absolute;
+    top: fill;
+    left: fill;
+}
+.staticHeader{
+    background-color: black;
+    height: 15%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
+    position: fixed;
+    top:0px;    
+
+}
+.darkSign{
+    position: absolute;
+    top:0px;
+    left:0px;
+
+}
+#DSC{
+    color: white;
+    position: fixed;
+    left: 85px;
+    top:-10px;
+
+}
+#prepare{
+    color:white;
+    position: absolute;
+    top: 25px;
+    left: 90px;
+
+}
+#facebook{
+    position: absolute;
+    right: 180px;
+    top: 10px;
+}
+#instagram{
+    position: absolute;
+    right: 130px;
+    top: 10px;
+}
+#twitter{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+}
+#bonfire{
+    position: absolute;
+    top: 0;
+    right:10px;
+    
+}
+#summonSign{
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    right: 50%;
+}
+.storeImg{
+    background: rgb(0, 0, 0, 0.5);
+    height: 58.2%;
+    width:23%;
+    padding: 2%;
+    margin:0 ;
+    position: absolute;
+    top: 30%;
+    left:0.3%;
+}
+
+.menu{
+    background: rgb(0, 0, 0, 0.5);
+    height: 57.8%;
+    width: 42%;
+    padding:2%;
+    margin: 0;
+    position: absolute;
+    top:30%;
+    right: 25%;
+    left: 28%;
+
+}
+
+.armor{
+    background: rgb(0, 0, 0, 0.5);
+    height: 77.6%;
+    width:25%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top:15%;
+    right: 0.3%;
+    bottom:15%;
+}
+
+.footer{
+    background: rgb(0, 0, 0);
+    height:5%;
+    width:100%;
+    padding: 0;
+    margin:0;
+    position: absolute;
+    bottom: 0%;
+}
+#img2{
+    padding: 2%;
+}
+#footerText{
+    color: white;
+}
+#footerLink{
+    color: orange;
+}
